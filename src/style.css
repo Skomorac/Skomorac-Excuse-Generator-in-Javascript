@@ -1,1 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+p {
+  color: yellow;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive;
+}
+
+body {
+  background-image: url("assets/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: blueviolet;
+}
