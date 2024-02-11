@@ -1,9 +1,4 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+'use strict'
 
 function generateExcuse() {
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
@@ -31,6 +26,14 @@ function generateExcuse() {
   document.getElementById("excuse").innerHTML = excuse;
 }
 
+var reloadButton = document.getElementById('reloadButton');
+
+reloadButton.addEventListener('click', function() {
+  location.reload()
+})
+
+
 window.onload = function() {
   generateExcuse();
 };
+
